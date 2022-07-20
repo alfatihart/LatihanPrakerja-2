@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="logo"><a href="#">Yosh Studio</a></h1>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Inventory</a></li>
+            </ul>
+        </header>
+
+        <section class="container">
+            <div class="card">
+                <div class="card-text">
+                    <div class="portada">
+                        <img class="img-avatar">
+                        <div class="profile">
+                            <p><b>About: </b> Fullstack Developer</p>
+                            <p><b>Age: </b> 26</p>
+                            <p><b>Availability: </b> Full Time</p>
+                            <p><b>Location: </b> Makassar</p>
+                            <p><b>Email: </b> jhondoe@mail.com</p>
+                        </div>
+                    </div>
+                    <div class="title-total">
+                        <div class="title">Fullstack Developer</div>
+                        <h2>Jhon Doe</h2>
+
+                        <div class="desc">Light blue, long hair hangs over a furrowed, friendly face. Gentle
+                            aquamarine eyes, set appealingly within their
+                            sockets, watch admiringly over the ancestors they've have been seperated from for so
+                            long.
+                            A goatee gorgeously compliments his mouth and leaves a delightful memory of his luck in
+                            love.</div>
+                        <main>
+                            <form>
+                                <div>
+                                    <label for="name" class="large-label">Name</label>
+                                    <input id="name" type="text" placeholder="Full Name" />
+                                </div>
+                                <div>
+                                    <label for="email" class="large-label">Email</label>
+                                    <input id="email" type="email" placeholder="name@example.com" />
+                                </div>
+                                <div>
+                                    <label for="age" class="large-label">Age</label>
+                                    <input id="age" type="number" placeholder="Age" />
+                                </div>
+                                <div>
+                                    <label for="location" class="large-label">Location</label>
+                                    <select id="location">
+                                        <option value="jakarta">Jakarta</option>
+                                        <option value="balikpapan">Balikpapan</option>
+                                        <option value="makassar">Makassar</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="role" class="large-label">Developer Role</label>
+                                    <select id="role">
+                                        <option value="front">Frontend Developer</option>
+                                        <option value="back">Backend Developer</option>
+                                        <option value="full">Fullstack Developer</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <fieldset>
+                                        <legend class="large-label">Availability</legend>
+                                        <input type="radio" name="grid" id="full" value="fulltime" />
+                                        <label for="full" class="small-label">Full Time</label>
+                                        <input type="radio" name="grid" id="part" value="parttime" />
+                                        <label for="part" class="small-label">Part Time</label>
+                                    </fieldset>
+                                </div>
+                                <div class="full-width">
+                                    <label for="message" class="large-label">Description</label>
+                                    <textarea id="message" placeholder="Leave a description"></textarea>
+                                </div>
+                                <div class="full-width">
+                                    <input type="checkbox" id="newsletter" />
+                                    <label for="newsletter" class="small-label">Receive our newsletter?</label>
+                                </div>
+                                <div class="full-width">
+                                    <button type="submit">Send Response</button>
+                                    <button type="reset">Clear Form</button>
+                                </div>
+                            </form>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <br><br><br>
+
+        <section class="wrapper">
+            <div class="content">
+                <div id="profile" class="profile">
+                    <table>
+                        <tr>
+                            <td rowspan="5"><img width="110" height="110" src="https://picsum.photos/200" /></td>
+                            <td>
+                                <b>Jhon Doe</b>
+                            </td>
+                            <td>&emsp;&emsp;&emsp;</td>
+                            <td><b>Availability</b></td>
+                            <td>Full Time</td>
+                        </tr>
+                        <tr>
+                            <td>Fullstack Developer</td>
+                            <td>&emsp;</td>
+                            <td><b>Usia</b></td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td><button>Edit</button></td>
+                            <td />
+                            <td><b>Lokasi</b></td>
+                            <td>Makassar</td>
+                        </tr>
+                        <tr>
+                            <td><button>Resume</button></td>
+                            <td />
+                            <td><b>Pengalaman</b></td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td />
+                            <td />
+                            <td><b>Email</b></td>
+                            <td>jhondoe@mail.com</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p><em>© This is a example code for Prakerja's submission</em></p>
+        </footer>
+    </body>
+
+</html>
